@@ -27,6 +27,15 @@ namespace ProgramaKintamieji
             Console.WriteLine("3. Nusipirkti pieno");
             Console.WriteLine(4 + ".Pasimokinti");
             Console.WriteLine("{0}. {1}", 5, "Parasyti programa");
+
+            Console.WriteLine("\nSTUDENTO DUOMENYS");
+            Console.WriteLine("----------------------");
+            Console.WriteLine("{0} {1} ({2}m.)", Vardas, Pavarde, Amzius);
+            Console.WriteLine(Vardas + " " + Pavarde + " (" + Amzius + "m.)");
+
+            Console.WriteLine("Iveskite teksta: ");
+            string tekstas = Console.ReadLine(); // Reiksmes tipas STRING
+            Console.WriteLine("Jusu ivestas skaicius yra: " + tekstas);
         }
     }
 }

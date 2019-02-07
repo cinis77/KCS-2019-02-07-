@@ -20,6 +20,13 @@ namespace ProgramaKintamieji
             char Kursas = '2';
             string Studiju_Programa = "Informacines technologijos";
             int atsiskaitytaKreditu = 180;
+
+            Console.WriteLine("To Do programa");
+            Console.WriteLine("1.Isvesti Suni");
+            Console.WriteLine("2. Ismesti Siuksles");
+            Console.WriteLine("3. Nusipirkti pieno");
+            Console.WriteLine(4 + ".Pasimokinti");
+            Console.WriteLine("{0}. {1}", 5, "Parasyti programa");
         }
     }
 }

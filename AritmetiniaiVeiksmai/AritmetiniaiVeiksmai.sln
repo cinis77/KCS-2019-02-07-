@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AritmetiniaiVeiksmai", "AritmetiniaiVeiksmai\AritmetiniaiVeiksmai.csproj", "{1D35A3E1-4378-41F0-AC58-F20D1769BE7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D35A3E1-4378-41F0-AC58-F20D1769BE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D35A3E1-4378-41F0-AC58-F20D1769BE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D35A3E1-4378-41F0-AC58-F20D1769BE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D35A3E1-4378-41F0-AC58-F20D1769BE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CFBA211-DCAC-4BCF-B8B6-7BD39310011B}
+	EndGlobalSection
+EndGlobal

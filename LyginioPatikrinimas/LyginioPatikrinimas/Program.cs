@@ -13,6 +13,8 @@ namespace LyginioPatikrinimas
             Console.WriteLine("Iveskite skaiciu");
             int sk = Convert.ToInt32(Console.ReadLine());
             int liekana = sk % 2;
+            // 3 % 2 = 1
+            // 4 % 2 = 0
             if (liekana == 0)
             {
                 Console.WriteLine("Skaicius yra lyginis");

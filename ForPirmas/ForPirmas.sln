@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForPirmas", "ForPirmas\ForPirmas.csproj", "{C9AA8182-4524-4E80-B858-E8BC900686DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9AA8182-4524-4E80-B858-E8BC900686DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AA8182-4524-4E80-B858-E8BC900686DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AA8182-4524-4E80-B858-E8BC900686DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AA8182-4524-4E80-B858-E8BC900686DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45FEF9E3-02C9-4C0C-9328-C8625A02496D}
+	EndGlobalSection
+EndGlobal

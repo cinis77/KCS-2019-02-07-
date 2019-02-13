@@ -24,7 +24,7 @@ namespace MiegoSkaiciavimas
                 Console.WriteLine(ats);
             }
             //61
-            for (int i = 0; i < DateTime.Today.Year; i++)
+            for (int i = 0; i <= DateTime.Today.Year; i++)
             {
                 if ((i % 4) == 0)
                 {

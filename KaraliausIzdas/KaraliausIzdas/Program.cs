@@ -14,6 +14,7 @@ namespace KaraliausIzdas
             int n = Convert.ToInt32(Console.ReadLine());
             int pirma = 1;
             int antra = 1;
+
             n -= pirma + antra;
             int naktuKiekis = 2;
             while (n > 0)

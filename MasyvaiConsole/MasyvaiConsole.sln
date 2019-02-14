@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasyvaiConsole", "MasyvaiConsole\MasyvaiConsole.csproj", "{4A427687-ABA6-4399-9FCD-3A048C0E5639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A427687-ABA6-4399-9FCD-3A048C0E5639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A427687-ABA6-4399-9FCD-3A048C0E5639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A427687-ABA6-4399-9FCD-3A048C0E5639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A427687-ABA6-4399-9FCD-3A048C0E5639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5D4719C-364D-4264-B839-681D57EE759F}
+	EndGlobalSection
+EndGlobal

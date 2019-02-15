@@ -8,10 +8,17 @@ namespace PrezidentoRinkimai
 {
     internal class Program
     {
+        [STAThread]
         private static void Main(string[] args)
         {
-            Console.WriteLine("Suveskite visus galimus kandidatus");
-            string kandidatai = Console.ReadLine();
+            string path = null;
+            System.Windows.Forms.OpenFileDialog ofd = new System.Windows.Forms.OpenFileDialog();
+            if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                path = ofd.FileName;
+            }
+            System.IO.StreamReader reader = new System.IO.StreamReader(path);
+            string kandidatai = reader.ReadLine();
             string[] kandidatuMasyvas = kandidatai.Split(' ');
             int max = int.MinValue;
             int maxIndex = -1;

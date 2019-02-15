@@ -13,14 +13,16 @@ namespace MasyvaiPasikartojimas
             int[] masyvas = { 1, 20, 80, -100, 1000, 400, 500, 9 };
             int suma = 0;
             int sandauga = 1;
-            for (int i = 0; i < masyvas.Length; i++)
+
+            foreach (var item in masyvas)
             {
-                suma += masyvas[i];
-                if ((masyvas[i] % 2) != 0)
+                suma += item;
+                if ((item % 2) != 0)
                 {
-                    sandauga *= masyvas[i];
+                    sandauga *= item;
                 }
             }
+
             Console.WriteLine("Masyvo suma yra: " + suma);
             Console.WriteLine("Masyvo vidurkis yra: " + ((double)suma / masyvas.Length));
             Console.WriteLine("Nelyginiu skaiciu sandauga yra: " + sandauga);
